@@ -2,12 +2,12 @@ import React from 'react';
 
 const Transaction = ({ name, amount, type, onDelete }) => {
   return (
-    <div>
-      <p>
+    <>
+      <h3 className='transactions' style={{fontWeight:'normal'}}>
         {name} : ({type === 'income' ? '+' : '-'} ${amount})
-        <button onClick={onDelete}>Delete</button>
-      </p>
-    </div>
+      </h3>
+      <button style={{padding:'10px', fontSize:'12px'}}onClick={onDelete}>Delete</button>
+    </>
   );
 };
 

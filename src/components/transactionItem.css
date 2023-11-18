@@ -1,0 +1,28 @@
+.transactictionItems{
+    width: 50%;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  button {
+    background-color: #f44336;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    justify-content: flex-end;
+  }
